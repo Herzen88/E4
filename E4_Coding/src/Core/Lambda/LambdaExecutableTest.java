@@ -1,4 +1,4 @@
-package Lambda;
+package Core.Lambda;
 
 interface Executable {
     int execute(int x, int y);
