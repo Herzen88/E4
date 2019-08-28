@@ -1,4 +1,5 @@
-package com.company.Algorithms;
+package Algorithms;
+
 
 import java.util.*;
 
