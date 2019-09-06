@@ -1,9 +1,8 @@
-package com.company.Algorithms;
+package Algorithms;
 
 import java.util.Arrays;
 
 public class Finbonachi {
-    static int count=0;
     public static void main(String[] args) {
         int n =6;
         long[] mem = new long[n+1];

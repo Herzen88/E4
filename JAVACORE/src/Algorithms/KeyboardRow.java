@@ -1,4 +1,4 @@
-package com.company.Algorithms;
+package Algorithms;
 
 public class KeyboardRow {
 

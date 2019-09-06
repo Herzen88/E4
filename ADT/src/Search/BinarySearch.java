@@ -13,7 +13,7 @@ public class BinarySearch {
         p = 0;
         r = arr.length - 1;
         while (p <= r) {
-            q = Math.round((p + r) >> 1);
+            q = Math.round((p+r)/2);
             if (arr[q] == x) return q;
             if (arr[q] > x) r = q - 1;
             else p = q + 1;

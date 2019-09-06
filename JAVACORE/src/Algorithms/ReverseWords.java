@@ -1,4 +1,4 @@
-package com.company.Algorithms;
+package Algorithms;
 
 public class ReverseWords {
     public static void main(String[] args) {
@@ -9,10 +9,16 @@ public class ReverseWords {
         input = builder.reverse().toString();
 
         String[] strArray = input.split("\\s");
-        for (int i = strArray.length - 1; i > -1; i--) {
-            if (i > 0) output += strArray[i] + " ";
-            else output += strArray[i];
+//        for (int i = strArray.length - 1; i > -1; i--) {
+//            if (i > 0) output += strArray[i] + " ";
+//            else output += strArray[i];
+//        }
+        for (int i = 0; i < strArray.length; i++) {
+            if(i>=0) output+= strArray[i] + " ";
+            else output+=strArray[i];
         }
         System.out.println(output);
+
+
     }
 }

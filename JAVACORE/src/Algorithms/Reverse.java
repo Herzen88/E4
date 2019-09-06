@@ -1,4 +1,4 @@
-package com.company.Algorithms;
+package Algorithms;
 
 public class Reverse {
     public static void main(String[] args) {
@@ -12,3 +12,5 @@ public class Reverse {
         System.out.println(rv);
     }
 }
+
+
