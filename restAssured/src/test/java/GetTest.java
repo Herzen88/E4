@@ -8,7 +8,7 @@ public class GetTest {
     @Test
     public void testGet() {
       Response response = given().when().get("http://ergast.com/api/f1/2017/circuits.json");
-              response.jsonPath().getMap("$");
+        System.out.println(response.jsonPath().getMap("$"));
 
     }
 }
