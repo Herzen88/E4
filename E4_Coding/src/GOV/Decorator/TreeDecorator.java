@@ -1,4 +1,4 @@
-package Decorator;
+package GOV.Decorator;
 
 public abstract class TreeDecorator implements ChristmasTree {
     protected ChristmasTree tree;

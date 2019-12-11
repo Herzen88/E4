@@ -1,4 +1,4 @@
-package Algorithms.String;
+package Strings;
 
 import java.awt.*;
 import java.util.Arrays;

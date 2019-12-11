@@ -1,4 +1,4 @@
-package Algorithms.Array;
+package Arrays;
 
 import java.util.*;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package Decorator;
+package GOV.Decorator;
 
 public class BubbleLights extends TreeDecorator {
     public BubbleLights(ChristmasTree tree) {

@@ -1,4 +1,4 @@
-package Algorithms.String;
+package Strings;
 
 import java.util.Collections;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package Decorator;
+package GOV.Decorator;
 
 public abstract class TestDecorator{
     public static void main(String[] args) {
