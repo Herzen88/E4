@@ -8,7 +8,7 @@ public class test {
 //        Integer[] array = {1, 2, 3, 4, 5, 6};
 //        int expectedSum = 5;
 //        Map<Integer, Integer> map = new HashMap<>();
-//        List<Integer>  list = Arrays.asList(array);
+//        MergeTwoSortedLists<Integer>  list = Arrays.asList(array);
 //
 //        for (int i = 0; i < array.length; i++) {
 //            if(list.contains(expectedSum - array[i])){

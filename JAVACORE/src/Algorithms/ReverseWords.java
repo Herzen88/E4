@@ -7,7 +7,6 @@ public class ReverseWords {
         StringBuilder builder = new StringBuilder(input);
 
         input = builder.reverse().toString();
-
         String[] strArray = input.split("\\s");
 //        for (int i = strArray.length - 1; i > -1; i--) {
 //            if (i > 0) output += strArray[i] + " ";
